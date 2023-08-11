@@ -15,7 +15,7 @@ export interface Row {
 
 /**
  * This function finds the average prices of two items from server responses and their ratio,
- * considering upper and lower bounds. It then constructs a data row,potentially marking
+ * considering upper and lower bounds. Then it will construct a data row, potentially marking
  * a ratio for alerts.
  */
 export class DataManipulator {

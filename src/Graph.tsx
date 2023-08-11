@@ -40,7 +40,7 @@ class Graph extends Component<IProps, {}> {
     }
     if (this.table) {
       // Load the `table` in the `<perspective-viewer>` DOM reference.
-      //Added in more attributes to match the schema constant
+      //Added in more attributes to match the schema constant and took the older attributes out
       elem.load(this.table);
       elem.setAttribute('view', 'y_line');
       elem.setAttribute('row-pivots', '["timestamp"]');
